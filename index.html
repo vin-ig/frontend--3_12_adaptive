@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Dashboard</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
@@ -35,64 +36,66 @@
     </div>
 </header>
 
-<section class="main container">
-    <div class="main-info">
-        <h1 class="double-title">
-            Самая вкусная пицца в мире
-            <span>только в Pizza Cheff</span>
-        </h1>
-        <div class="main-advantages">
-            <div class="advantage">
-                <div class="advantage-image">
-                    <img src="assets/images/icon_1.png" alt="Advantage">
+<section class="main">
+    <div class="container">
+        <div class="main-info">
+            <h1 class="double-title">
+                Самая вкусная пицца в мире
+                <span>только в Pizza Cheff</span>
+            </h1>
+            <div class="main-advantages">
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="assets/images/icon_1.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">Лучшее тесто</div>
+                        <div class="advantage-description">
+                            Мы создаем тесто только из отборной итальянской муки наивысшего качества
+                        </div>
+                    </div>
                 </div>
-                <div class="advantage-text">
-                    <div class="advantage-title">Лучшее тесто</div>
-                    <div class="advantage-description">
-                        Мы создаем тесто только из отборной итальянской муки наивысшего качества
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="assets/images/icon_2.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">лучшие повара</div>
+                        <div class="advantage-description">
+                            Пиццы готовят самые профессиональные итальянские повара
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="assets/images/icon_3.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">гарантия качества</div>
+                        <div class="advantage-description">
+                            Наша пиццерия получила множество наград и признаний по всему миру
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="assets/images/icon_4.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">отборные рецепты</div>
+                        <div class="advantage-description">
+                            Мы используем рецепты от мировых лидеров в изготовлении пиццы
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="advantage">
-                <div class="advantage-image">
-                    <img src="assets/images/icon_2.png" alt="Advantage">
-                </div>
-                <div class="advantage-text">
-                    <div class="advantage-title">лучшие повара</div>
-                    <div class="advantage-description">
-                        Пиццы готовят самые профессиональные итальянские повара
-                    </div>
-                </div>
-            </div>
-            <div class="advantage">
-                <div class="advantage-image">
-                    <img src="assets/images/icon_3.png" alt="Advantage">
-                </div>
-                <div class="advantage-text">
-                    <div class="advantage-title">гарантия качества</div>
-                    <div class="advantage-description">
-                        Наша пиццерия получила множество наград и признаний по всему миру
-                    </div>
-                </div>
-            </div>
-            <div class="advantage">
-                <div class="advantage-image">
-                    <img src="assets/images/icon_4.png" alt="Advantage">
-                </div>
-                <div class="advantage-text">
-                    <div class="advantage-title">отборные рецепты</div>
-                    <div class="advantage-description">
-                        Мы используем рецепты от мировых лидеров в изготовлении пиццы
-                    </div>
-                </div>
+            <div class="main-actions">
+                <button class="button">Выбрать пиццу</button>
             </div>
         </div>
-        <div class="main-actions">
-            <button class="button">Выбрать пиццу</button>
+        <div class="main-image">
+            <img src="assets/images/pizza_big.png" alt="Big pizza">
         </div>
-    </div>
-    <div class="main-image">
-        <img src="assets/images/pizza_big.png" alt="Big pizza">
     </div>
 </section>
 
@@ -198,28 +201,30 @@
     </div>
 </section>
 
-<section class="order container">
-    <div class="order-text">
-        <div class="order-text-title">
-            <h2 class="double-title">
-                <span>Хватит думать!</span>
-                Доставим заказ за 30 минут!
-            </h2>
+<section class="order">
+    <div class="container">
+        <div class="order-text">
+            <div class="order-text-title">
+                <h2 class="double-title">
+                    <span>Хватит думать!</span>
+                    Доставим заказ за 30 минут!
+                </h2>
+            </div>
+            <div class="order-text-message">
+                Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже на 1
+                минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом
+                и сделаем всё, чтобы наш клиент был доволен и не остался голодный!
+            </div>
         </div>
-        <div class="order-text-message">
-            Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже на 1
-            минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом
-            и сделаем всё, чтобы наш клиент был доволен и не остался голодный!
+        <div class="order-form">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Адрес доставки">
+            <input type="text" placeholder="Телефон">
+            <button class="button">Оформить заказ</button>
         </div>
-    </div>
-    <div class="order-form">
-        <input type="text" placeholder="Ваше имя">
-        <input type="text" placeholder="Адрес доставки">
-        <input type="text" placeholder="Телефон">
-        <button class="button">Оформить заказ</button>
-    </div>
-    <div class="order-image">
-        <img src="assets/images/pizza_piece.png" alt="Piece of pizza">
+        <div class="order-image">
+            <img src="assets/images/pizza_piece.png" alt="Piece of pizza">
+        </div>
     </div>
 </section>
 
