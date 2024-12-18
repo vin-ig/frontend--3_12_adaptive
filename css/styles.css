@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("../assets/fonts/MullerRegular.otf");
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../assets/fonts/MullerBold.otf");
+}
+
+@font-face {
+    font-family: "MullerExtraBold";
+    src: url("../assets/fonts/MullerExtraBold.otf");
+}
+
+body {
+    font-family: "Muller", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.header {
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+    padding: 16px 0 15px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    width: 489px;
+    justify-content: space-between;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+}
+
+
+/* MAIN */
+.main {
+    padding: 132px 0 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info {
+    max-width: 622px;
+}
+
+.main-info h1 {
+    font-family: MullerExtraBold, sans-serif;
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.double-title {
+    color: rgb(185, 145, 80);
+}
+
+.double-title span {
+    color: #ffaf18;
+}
+
+.main-advantages {
+    padding-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantage {
+    max-width: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.advantage-text {
+    margin-left: 16px;
+}
+
+.advantage-title {
+    font-family: MullerExtraBold, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 175, 24);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.advantage-description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+}
+
+.main-actions {
+    margin-top: 60px;
+}
+
+.button {
+    background: rgb(255, 175, 24);
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    width: 224px;
+    padding: 22px;
+    box-sizing: border-box;
+    font-family: MullerBold, sans-serif;
+    font-size: 16px;
+    color: rgb(56, 36, 0);
+}
+
+
+/* PRODUCTS */
+.products {
+    padding: 80px 0 120px;
+}
+
+.products-title {
+    font-size: 35px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(189, 152, 92);
+    text-align: center;
+}
+
+.products-items {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 282px;
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+    text-align: center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+.product-image {
+    display: flex;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-title {
+    font-family: MullerBold, sans-serif;
+    font-size: 18px;
+    color: rgb(56, 36, 0);
+}
+
+.product-text {
+    font-family: Muller, sans-serif;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 49px;
+    margin: 14px 0 15px;
+}
+
+.product-action button {
+    width: 242px;
+    padding: 17px;
+}
+
+
+/* ORDER */
+.order {
+    padding: 120px 0 115px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.order-text {
+    max-width: 384px;
+}
+
+.order-text-title h2 {
+    font-size: 35px;
+    font-family: MullerExtraBold, sans-serif;
+    margin-bottom: 65px;
+}
+
+.order-text-message {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+}
+
+.order-form {
+    margin-left: 122px;
+    width: 330px;
+}
+
+.order-form input {
+    border: 1px solid rgb(185, 145, 80);
+    width: 330px;
+    padding: 23px;
+    font-size: 18px;
+    color: rgb(119, 82, 16);
+    outline: none;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.order-form input::placeholder {
+    color: rgb(203, 168, 110)
+}
+
+.order .button {
+    width: 330px;
+}
+
+.order-image {
+    width: 282px;
+    position: relative;
+    margin-left: 78px;
+}
+
+.order-image img {
+    position: absolute;
+    bottom: -35px;
+}
+
+
+/* FOOTER */
+.footer {
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+    padding: 16px 0 15px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rights {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+}
+
+
+
+
+
+
+
+
+
