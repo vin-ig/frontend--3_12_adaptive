@@ -276,10 +276,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
+/* ADAPTIVE ICONS */
+.burger, .close {
+    display: none;
+}
