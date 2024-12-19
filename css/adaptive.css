@@ -32,7 +32,49 @@
 
 /* 768 - 1023 */
 @media screen and (max-width: 1023px) {
+    .menu ul {
+        width: 420px;
+    }
 
+    .main .container {
+        flex-direction: column-reverse;
+    }
+
+    .main {
+        padding-top: 50px;
+    }
+
+    .main-info h1, .main-actions {
+        text-align: center;
+    }
+
+    .products {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .order {
+        padding-top: 60px;
+        position: relative;
+    }
+
+    .order-image {
+        position: absolute;
+        z-index: -1;
+        right: calc(50% - 400px);
+    }
+
+    .order-image img {
+        position: relative;
+    }
+
+    .order .container {
+        justify-content: center;
+    }
+
+    .empty-block {
+        display: none;
+    }
 }
 
 /* 425 - 767 */
