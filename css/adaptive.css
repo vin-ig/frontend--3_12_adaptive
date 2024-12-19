@@ -126,11 +126,33 @@
 
 /* 375 - 424 */
 @media screen and (max-width: 424px) {
+    .menu {
+        display: none;
+    }
 
+    .main-image {
+        width: 100%;
+    }
 }
 
 /* 320 - 374 */
 @media screen and (max-width: 374px) {
+    .main-info h1 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
 
+    .order-form{
+        text-align: center;
+    }
+
+    .order-form input,
+    .order .button {
+        width: 290px;
+    }
+
+    .rights {
+        max-width: 60px;
+    }
 }
 
