@@ -77,7 +77,7 @@
     }
 }
 
-/* 425 - 767 */
+/* 657 - 767 */
 @media screen and (max-width: 767px) {
     .header .container {
         flex-wrap: wrap;
@@ -100,7 +100,6 @@
     }
 
     .main-advantages {
-        max-width: 306px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -121,6 +120,13 @@
 
     .order-form {
         margin-left: 0;
+    }
+}
+
+/* 425 - 656 */
+@media screen and (max-width: 656px) {
+    .main-advantages {
+        max-width: 306px;
     }
 }
 
