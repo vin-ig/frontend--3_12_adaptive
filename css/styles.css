@@ -34,30 +34,26 @@ body {
     padding: 16px 0 15px;
 }
 
-.header .container {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menu {
-
-}
-
-.menu ul {
+.menu__list {
     list-style: none;
     display: flex;
     width: 489px;
     justify-content: space-between;
 }
 
-.menu-item a {
+.menu__link {
     text-decoration: none;
     font-size: 16px;
     color: rgb(164, 107, 0);
 }
 
-.menu-item a:hover {
+.menu__link_active, .menu__link:hover {
     border-bottom: 3px solid #f9d7a8;
 }
 
@@ -67,17 +63,17 @@ body {
     padding: 132px 0 81px;
 }
 
-.main .container {
+.main__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.main-info {
+.main__info {
     max-width: 622px;
 }
 
-.main-info h1 {
+.main__double-title {
     font-family: MullerExtraBold, sans-serif;
     font-size: 45px;
     line-height: 1.2;
@@ -87,11 +83,11 @@ body {
     color: rgb(185, 145, 80);
 }
 
-.double-title span {
+.double-title__span {
     color: #ffaf18;
 }
 
-.main-advantages {
+.main__advantages {
     padding-top: 13px;
     display: flex;
     flex-wrap: wrap;
@@ -106,11 +102,11 @@ body {
     margin-top: 47px;
 }
 
-.advantage-text {
+.advantage__text {
     margin-left: 16px;
 }
 
-.advantage-title {
+.advantage__title {
     font-family: MullerExtraBold, sans-serif;
     font-size: 16px;
     color: rgb(255, 175, 24);
@@ -118,12 +114,12 @@ body {
     padding-bottom: 10px;
 }
 
-.advantage-description {
+.advantage__description {
     font-size: 16px;
     color: rgb(185, 145, 80);
 }
 
-.main-actions {
+.main__actions {
     margin-top: 60px;
 }
 
@@ -132,12 +128,15 @@ body {
     cursor: pointer;
     outline: none;
     border: 0;
-    width: 224px;
-    padding: 22px;
     box-sizing: border-box;
     font-family: MullerBold, sans-serif;
     font-size: 16px;
     color: rgb(56, 36, 0);
+}
+
+.main__button {
+    width: 224px;
+    padding: 22px;
 }
 
 .button:hover {
@@ -150,14 +149,14 @@ body {
     padding: 80px 0 120px;
 }
 
-.products-title {
+.products__title {
     font-size: 35px;
     font-family: MullerBold, sans-serif;
     color: rgb(189, 152, 92);
     text-align: center;
 }
 
-.products-items {
+.products__items {
     display: flex;
     margin-top: 35px;
     justify-content: space-between;
@@ -173,20 +172,20 @@ body {
     margin-top: 24px;
 }
 
-.product-image {
+.product__image {
     display: flex;
     height: 180px;
     align-items: center;
     justify-content: center;
 }
 
-.product-title {
+.product__title {
     font-family: MullerBold, sans-serif;
     font-size: 18px;
     color: rgb(56, 36, 0);
 }
 
-.product-text {
+.product__text {
     font-family: Muller, sans-serif;
     font-size: 14px;
     color: rgb(24, 26, 26);
@@ -195,7 +194,7 @@ body {
     margin: 14px 0 15px;
 }
 
-.product-action button {
+.product__button {
     width: 242px;
     padding: 17px;
 }
@@ -207,60 +206,64 @@ body {
     overflow: hidden;
 }
 
-.order .container {
+.order__container {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
 
-.order-text {
+.order__text {
     max-width: 384px;
 }
 
-.order-text-title h2 {
+.order__double-title {
     font-size: 35px;
     font-family: MullerExtraBold, sans-serif;
     margin-bottom: 65px;
 }
 
-.order-text-message {
+.order__text-message {
     font-size: 16px;
     color: rgb(185, 145, 80);
     line-height: 1.5;
 }
 
-.order-form {
+.order__form {
     margin-left: 122px;
     width: 330px;
 }
 
-.order-form input {
+.base-input {
     border: 1px solid rgb(185, 145, 80);
-    width: 330px;
     padding: 23px;
     font-size: 18px;
     color: rgb(119, 82, 16);
     outline: none;
-    margin-bottom: 24px;
     box-sizing: border-box;
+}
+
+.order__base-input {
+    width: 330px;
+    margin-bottom: 24px;
     height: 60px;
 }
 
-.order-form input::placeholder {
+.base-input::placeholder {
     color: rgb(203, 168, 110)
 }
 
-.order .button {
+.order__button {
     width: 330px;
+    padding: 22px;
 }
 
-.order-image {
+.order__image {
     width: 282px;
     position: relative;
     margin-left: 78px;
 }
 
-.order-image img {
+.order__image-img {
     position: absolute;
     bottom: -35px;
 }
@@ -272,19 +275,19 @@ body {
     padding: 16px 0 15px;
 }
 
-.footer .container {
+.footer__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.rights {
+.footer__rights {
     font-size: 12px;
     color: rgb(186, 179, 179);
 }
 
 
 /* ADAPTIVE ICONS */
-.burger, .close {
+.header__burger, .menu__close {
     display: none;
 }

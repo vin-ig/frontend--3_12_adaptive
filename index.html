@@ -10,9 +10,9 @@
 <body>
 
 <header class="header">
-    <div class="container">
-        <div class="burger" id="burger">
-            <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+    <div class="container header__container">
+        <div class="header__burger" id="burger">
+            <svg class="header__burger-svg" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
                  xmlns="http://www.w3.org/2000/svg">
                 <path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
                 <path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
@@ -23,8 +23,8 @@
             <img src="assets/images/logo.png" alt="Logo">
         </div>
         <nav class="menu" id="menu">
-            <div class="close" id="close">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            <div class="menu__close" id="close">
+                <svg class="menu__close-svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
                     <g>
@@ -40,202 +40,202 @@
                     </g>
                 </svg>
             </div>
-            <ul>
-                <li class="menu-item">
-                    <a href="#products">Пиццы</a>
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#products" class="menu__link">Пиццы</a>
                 </li>
-                <li class="menu-item">
-                    <a href="#">Напитки</a>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Напитки</a>
                 </li>
-                <li class="menu-item">
-                    <a href="#order">Доставка и оплата</a>
+                <li class="menu__item">
+                    <a href="#order" class="menu__link">Доставка и оплата</a>
                 </li>
-                <li class="menu-item">
-                    <a href="#">Контакты</a>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <div class="cart">
+        <div class="header__cart">
             <img src="assets/images/cart.png" alt="Cart">
         </div>
     </div>
 </header>
 
 <section class="main">
-    <div class="container">
-        <div class="main-info">
-            <h1 class="double-title">
+    <div class="container main__container">
+        <div class="main__info">
+            <h1 class="double-title main__double-title">
                 Самая вкусная пицца в мире
-                <span>только в Pizza Cheff</span>
+                <span class="double-title__span">только в Pizza Cheff</span>
             </h1>
-            <div class="main-advantages">
+            <div class="main__advantages">
                 <div class="advantage">
-                    <div class="advantage-image">
+                    <div class="advantage__image">
                         <img src="assets/images/icon_1.png" alt="Advantage">
                     </div>
-                    <div class="advantage-text">
-                        <div class="advantage-title">Лучшее тесто</div>
-                        <div class="advantage-description">
+                    <div class="advantage__text">
+                        <div class="advantage__title">Лучшее тесто</div>
+                        <div class="advantage__description">
                             Мы создаем тесто только из отборной итальянской муки наивысшего качества
                         </div>
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage-image">
+                    <div class="advantage__image">
                         <img src="assets/images/icon_2.png" alt="Advantage">
                     </div>
-                    <div class="advantage-text">
-                        <div class="advantage-title">лучшие повара</div>
-                        <div class="advantage-description">
+                    <div class="advantage__text">
+                        <div class="advantage__title">лучшие повара</div>
+                        <div class="advantage__description">
                             Пиццы готовят самые профессиональные итальянские повара
                         </div>
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage-image">
+                    <div class="advantage__image">
                         <img src="assets/images/icon_3.png" alt="Advantage">
                     </div>
-                    <div class="advantage-text">
-                        <div class="advantage-title">гарантия качества</div>
-                        <div class="advantage-description">
+                    <div class="advantage__text">
+                        <div class="advantage__title">гарантия качества</div>
+                        <div class="advantage__description">
                             Наша пиццерия получила множество наград и признаний по всему миру
                         </div>
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage-image">
+                    <div class="advantage__image">
                         <img src="assets/images/icon_4.png" alt="Advantage">
                     </div>
-                    <div class="advantage-text">
-                        <div class="advantage-title">отборные рецепты</div>
-                        <div class="advantage-description">
+                    <div class="advantage__text">
+                        <div class="advantage__title">отборные рецепты</div>
+                        <div class="advantage__description">
                             Мы используем рецепты от мировых лидеров в изготовлении пиццы
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="main-actions">
-                <button class="button">Выбрать пиццу</button>
+            <div class="main__actions">
+                <button class="button main__button">Выбрать пиццу</button>
             </div>
         </div>
-        <div class="main-image">
-            <img src="assets/images/pizza_big.png" alt="Big pizza">
+        <div class="main__image">
+            <img src="assets/images/pizza_big.png" alt="Big pizza" class="main__image-img">
         </div>
     </div>
 </section>
 
 <section class="products container" id="products">
-    <h2 class="products-title">Выберите свою любимую пиццу</h2>
-    <div class="products-items">
+    <h2 class="products__title">Выберите свою любимую пиццу</h2>
+    <div class="products__items">
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_1.png" alt="Pizza">
             </div>
-            <div class="product-title">Мясная Делюкс</div>
-            <div class="product-text">
+            <div class="product__title">Мясная Делюкс</div>
+            <div class="product__text">
                 Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы, соус чили, ананасы
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_2.png" alt="Pizza">
             </div>
-            <div class="product-title">Морская Премиум</div>
-            <div class="product-text">
+            <div class="product__title">Морская Премиум</div>
+            <div class="product__text">
                 Перец, сыр, креветки, кальмары, мидии, лосось
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_3.png" alt="Pizza">
             </div>
-            <div class="product-title">Бекон и Сосиски</div>
-            <div class="product-text">
+            <div class="product__title">Бекон и Сосиски</div>
+            <div class="product__text">
                 Бекон, сыр, сосиски, ананас, томатная паста
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_4.png" alt="Pizza">
             </div>
-            <div class="product-title">Куриная Делюкс</div>
-            <div class="product-text">
+            <div class="product__title">Куриная Делюкс</div>
+            <div class="product__text">
                 Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_5.png" alt="Pizza">
             </div>
-            <div class="product-title">Барбекю Премиум</div>
-            <div class="product-text">
+            <div class="product__title">Барбекю Премиум</div>
+            <div class="product__text">
                 Свинина BBQ, соус Барбкею, сыр, курица, соус для пиццы, соус чили
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_6.png" alt="Pizza">
             </div>
-            <div class="product-title">Пепперони Дабл</div>
-            <div class="product-text">
+            <div class="product__title">Пепперони Дабл</div>
+            <div class="product__text">
                 Пепперони, сыр, колбаса 2 видов: обжаренная и вареная
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_7.png" alt="Pizza">
             </div>
-            <div class="product-title">Куриное трио</div>
-            <div class="product-text">
+            <div class="product__title">Куриное трио</div>
+            <div class="product__text">
                 Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр, грибы, соус для пиццы
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
         <div class="product">
-            <div class="product-image">
+            <div class="product__image">
                 <img src="assets/images/products/pizza_8.png" alt="Pizza">
             </div>
-            <div class="product-title">Сырная</div>
-            <div class="product-text">
+            <div class="product__title">Сырная</div>
+            <div class="product__text">
                 Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный
             </div>
-            <div class="product-action">
-                <button class="button">В корзину</button>
+            <div class="product__action">
+                <button class="button product__button">В корзину</button>
             </div>
         </div>
     </div>
 </section>
 
 <section class="order" id="order">
-    <div class="container">
-        <div class="order-text">
-            <div class="order-text-title">
-                <h2 class="double-title">
-                    <span>Хватит думать!</span>
+    <div class="container order__container">
+        <div class="order__text">
+            <div class="order__text-title">
+                <h2 class="double-title order__double-title">
+                    <span class="double-title__span">Хватит думать!</span>
                     Доставим заказ за 30 минут!
                 </h2>
             </div>
-            <div class="order-text-message">
+            <div class="order__text-message">
                 Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже на
                 1
                 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим
@@ -243,24 +243,24 @@
                 и сделаем всё, чтобы наш клиент был доволен и не остался голодный!
             </div>
         </div>
-        <div class="order-form">
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="Адрес доставки">
-            <input type="text" placeholder="Телефон">
-            <button class="button">Оформить заказ</button>
+        <div class="order__form">
+            <input type="text" class="base-input order__base-input" placeholder="Ваше имя">
+            <input type="text" class="base-input order__base-input" placeholder="Адрес доставки">
+            <input type="text" class="base-input order__base-input" placeholder="Телефон">
+            <button class="button order__button">Оформить заказ</button>
         </div>
-        <div class="order-image">
-            <img src="assets/images/pizza_piece.png" alt="Piece of pizza">
+        <div class="order__image">
+            <img src="assets/images/pizza_piece.png" class="order__image-img" alt="Piece of pizza">
         </div>
     </div>
 </section>
 
 <footer class="footer">
-    <div class="container">
+    <div class="container footer__container">
         <div class="logo">
             <img src="assets/images/logo.png" alt="Logo">
         </div>
-        <div class="rights">Все права защищены, 2020</div>
+        <div class="footer__rights">Все права защищены, 2020</div>
         <div class="empty-block"></div>
     </div>
 </footer>
